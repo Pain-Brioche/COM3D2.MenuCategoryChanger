@@ -47,7 +47,7 @@ namespace COM3D2_MenuCategoryChanger
             CategoryCheckResult categoryExceptionType = CheckExceptions(CurrentCategory);
             if (categoryExceptionType == CategoryCheckResult.Valid)
             {
-                MainWindow.BindingInfos.Infos = "Category is a valid, select a new one.";
+                MainWindow.BindingInfos.Infos = "Category is valid, select a new one.";
                 MainWindow.BindingInfos.CurrentCategoryEnum = GetCategoryEnum(CurrentCategory);
                 canChange = true;
             }
