@@ -17,8 +17,8 @@ namespace COM3D2_MenuCategoryChanger
         mizugi,
         bra,
         panz,
-        Stkg,
-        Shoes,
+        stkg,
+        shoes,
 
         //Accessories
         acckami,
